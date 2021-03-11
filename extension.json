@@ -1,0 +1,13 @@
+{
+  "name": "Sequence search",
+  "apiVersion": "1.0.0",
+  "author": "Tomáš Poruba",
+  "version": "0.0.1",
+  "description": "Sequence search in ascii, dec, hex input format from selected analyzer",
+  "extensions": {
+    "Sequence search": {
+      "type": "HighLevelAnalyzer",
+      "entryPoint": "SequenceSearch.search"
+    }
+  }
+}
